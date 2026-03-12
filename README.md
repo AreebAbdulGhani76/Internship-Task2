@@ -23,15 +23,16 @@ Target variable:
 y → whether the client subscribed to a term deposit (yes/no)
 
 # 🛠️Approach:
-1. Data Exploration
+
+# 1️⃣ Data Exploration
 
 The dataset was loaded and explored using pandas to understand the structure, features, and distribution of the data.
 
-2. Data Preprocessing
+# 2️⃣ Data Preprocessing
 
 Categorical variables were encoded using appropriate encoding techniques to convert them into numerical form suitable for machine learning models.
 
-3. Model Training
+# 3️⃣ Model Training
 
 Two classification models were trained:
 
@@ -40,7 +41,7 @@ Random Forest Classifier
 
 These models were used to predict whether a customer will subscribe to a term deposit.
 
-4. Model Evaluation
+# 4️⃣ Model Evaluation
 
 The models were evaluated using the following metrics:
 
@@ -50,7 +51,7 @@ ROC Curve
 
 These metrics help measure classification performance and model reliability.
 
-5. Model Interpretability
+# 5️⃣Model Interpretability
 
 To understand the decision-making process of the models, Explainable AI techniques were used.
 
