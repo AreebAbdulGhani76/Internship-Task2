@@ -61,7 +61,7 @@ LIME (Local Interpretable Model-Agnostic Explanations)
 
 These techniques were used to explain at least 5 individual predictions, highlighting which features influenced the model's decisions.
 
-# 📈Results and Findings
+# 📈Results and Findings:
 
 1) The models successfully predicted customer subscription behavior.
 2) Random Forest generally performed better due to its ability to capture complex relationships in the data.
@@ -147,5 +147,5 @@ Provide budget-friendly product bundles and clearance sales
 
 Use loyalty programs and regular promotional campaigns
 
-# 📈 Results and Findings
+# 📈 Results and Findings:
 The K-Means clustering algorithm successfully grouped customers into distinct segments based on their spending patterns. Visualization techniques such as PCA and t-SNE helped clearly illustrate the separation between clusters. The segmentation provides valuable insights that businesses can use to improve marketing strategies, enhance customer engagement, and increase revenue.
