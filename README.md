@@ -67,3 +67,85 @@ These techniques were used to explain at least 5 individual predictions, highlig
 2) Random Forest generally performed better due to its ability to capture complex relationships in the data.
 3) Features such as call duration, campaign contacts, and customer profile information were important predictors.
 4) SHAP/LIME explanations helped interpret how individual features influenced model predictions.
+
+## Task 2: Customer Segmentation Using Unsupervised Learning (Mall Customers)
+
+# 📌 Objective:
+The objective of this project is to segment customers based on their spending behavior using unsupervised learning techniques. By identifying different customer groups, businesses can better understand purchasing patterns and design targeted marketing strategies for each segment. The dataset used for this task is the Mall Customers Dataset, which contains demographic and spending information of mall visitors.
+
+# 📊 Dataset
+The dataset contains information about mall customers such as:
+
+Customer ID
+Gender
+Age
+Annual Income (k$)
+Spending Score (1–100)
+
+The Spending Score is assigned by the mall based on customer behavior and spending patterns.
+
+# 🛠️ Approach:
+
+# 1️⃣ Exploratory Data Analysis (EDA)
+The dataset was explored using Python libraries such as Pandas, Matplotlib, and Seaborn to understand the distribution of customer attributes and identify patterns in the data.
+
+Key analyses included:
+
+1) Age distribution of customers
+2) Gender distribution
+3) Relationship between annual income and spending score
+4) Correlation between numerical variables
+
+# 2️⃣ Customer Segmentation using K-Means
+The K-Means clustering algorithm was applied to segment customers into distinct groups based on their income and spending behavior.
+
+Steps included:
+
+1) Selecting relevant features such as Annual Income and Spending Score
+2) Determining the optimal number of clusters using the Elbow Method
+3) Applying the K-Means algorithm to create meaningful customer segments
+
+# 3️⃣ Cluster Visualization
+To better visualize the clusters, dimensionality reduction techniques were applied:
+
+PCA (Principal Component Analysis)
+t-SNE (t-distributed Stochastic Neighbor Embedding)
+
+These methods helped reduce the data to two dimensions and allowed the clusters to be visualized clearly through scatter plots.
+
+# 4️⃣ Customer Segment Analysis
+After clustering, each segment was analyzed based on its characteristics, such as income level and spending behavior. This helped identify different types of customers, for example:
+
+High-income high-spending customers
+High-income low-spending customers
+Low-income high-spending customers
+Low-income low-spending customers
+Average customers
+
+# 5️⃣ Marketing Strategy Recommendations
+Based on the identified segments, targeted marketing strategies were proposed:
+
+# 1) High Income – High Spending Customers:
+
+Offer VIP memberships and exclusive products
+Provide personalized premium services
+
+# 2) High Income – Low Spending Customers
+
+Promote luxury products and personalized offers
+Encourage engagement through exclusive discounts
+
+# 3) Low Income – High Spending Customers
+
+Offer promotional discounts and seasonal deals
+
+# 4) Low Income – Low Spending Customers
+
+Provide budget-friendly product bundles and clearance sales
+
+# 5) Average Customers
+
+Use loyalty programs and regular promotional campaigns
+
+# 📈 Results and Findings
+The K-Means clustering algorithm successfully grouped customers into distinct segments based on their spending patterns. Visualization techniques such as PCA and t-SNE helped clearly illustrate the separation between clusters. The segmentation provides valuable insights that businesses can use to improve marketing strategies, enhance customer engagement, and increase revenue.
