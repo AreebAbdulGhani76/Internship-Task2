@@ -1,12 +1,12 @@
 # Internship-Task2
 # Task 1: Term Deposit Subscription Prediction (Bank Marketing)
 
-# Task Objective
+# 📌Objective:
 
 The objective of this project is to predict whether a bank customer will subscribe to a term deposit based on the results of a marketing campaign. The dataset used for this task is the Bank Marketing Dataset from the UCI Machine Learning Repository.
 The goal is to build classification models that can analyze customer behavior and help banks improve their marketing strategies.
 
-# Dataset
+# 📊Dataset
 
 The dataset contains information about bank clients such as:
 
@@ -22,7 +22,7 @@ Campaign information
 Target variable:
 y → whether the client subscribed to a term deposit (yes/no)
 
-# Approach
+# 🛠️Approach:
 1. Data Exploration
 
 The dataset was loaded and explored using pandas to understand the structure, features, and distribution of the data.
@@ -60,9 +60,9 @@ LIME (Local Interpretable Model-Agnostic Explanations)
 
 These techniques were used to explain at least 5 individual predictions, highlighting which features influenced the model's decisions.
 
-# Results and Findings
+# 📈Results and Findings
 
-The models successfully predicted customer subscription behavior.
-Random Forest generally performed better due to its ability to capture complex relationships in the data.
-Features such as call duration, campaign contacts, and customer profile information were important predictors.
-SHAP/LIME explanations helped interpret how individual features influenced model predictions.
+1) The models successfully predicted customer subscription behavior.
+2) Random Forest generally performed better due to its ability to capture complex relationships in the data.
+3) Features such as call duration, campaign contacts, and customer profile information were important predictors.
+4) SHAP/LIME explanations helped interpret how individual features influenced model predictions.
