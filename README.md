@@ -196,7 +196,7 @@ Captures linear temporal dependencies in the time series.
 
 Designed for time series with strong seasonal patterns and missing data.
 
-# 3) XGBoost Regression
+# 3) XGBoost Regression:
 
 Uses time-based features as input to model non-linear patterns.
 
