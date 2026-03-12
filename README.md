@@ -149,3 +149,68 @@ Use loyalty programs and regular promotional campaigns
 
 # 📈 Results and Findings:
 The K-Means clustering algorithm successfully grouped customers into distinct segments based on their spending patterns. Visualization techniques such as PCA and t-SNE helped clearly illustrate the separation between clusters. The segmentation provides valuable insights that businesses can use to improve marketing strategies, enhance customer engagement, and increase revenue.
+
+## Task 3: Energy Consumption Time Series Forecasting
+
+# 📌 Objective:
+The objective of this project is to forecast short-term household energy usage using historical patterns and time-based features. By predicting energy consumption, households and utility providers can optimize energy usage, reduce costs, and improve planning. The dataset used for this task is the Household Power Consumption Dataset, which contains detailed records of household electricity usage over time.
+
+# 📊 Dataset
+The dataset contains the following information:
+
+Date and Time
+Global Active Power (kilowatts)
+Global Reactive Power
+Voltage
+Sub-metering readings (kitchen, laundry, heating, etc.)
+
+The target variable for forecasting is:
+
+Global Active Power → represents household energy consumption in kilowatts.
+
+# 🛠️ Approach:
+
+# 1️⃣ Time Series Parsing and Resampling
+
+1) Combined the Date and Time columns into a single datetime column.
+2) Converted the target variable to numeric type and handled missing values.
+3) Resampled the data to hourly averages to create a consistent time series.
+
+# 2️⃣ Feature Engineering
+
+Extracted time-based features such as:
+
+Hour of the day
+Weekday vs. weekend indicator
+
+These features help models capture temporal patterns and improve forecast accuracy.
+
+# 3️⃣ Model Training and Comparison
+Three different forecasting models were applied and compared:
+
+# 1) ARIMA (Auto-Regressive Integrated Moving Average):
+
+Captures linear temporal dependencies in the time series.
+
+# 2) Prophet:
+
+Designed for time series with strong seasonal patterns and missing data.
+
+# 3) XGBoost Regression
+
+Uses time-based features as input to model non-linear patterns.
+
+Models were evaluated using RMSE (Root Mean Squared Error) to compare prediction accuracy.
+
+# 4️⃣ Forecast Visualization
+
+Plotted actual vs. predicted energy usage for all models
+
+Visualization helps assess the model’s performance over time and identify periods where forecasts deviate from actual consumption.
+
+# 📈 Results and Findings
+
+1) ARIMA effectively captured short-term linear trends in energy usage.
+2) Prophet performed well in handling seasonal patterns and daily fluctuations.
+3) XGBoost captured non-linear relationships using time-based features and often outperformed linear models in certain periods.
+4) Combining feature engineering with appropriate forecasting models provides accurate predictions for household energy planning.
