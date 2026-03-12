@@ -116,16 +116,16 @@ These methods helped reduce the data to two dimensions and allowed the clusters 
 # 4️⃣ Customer Segment Analysis
 After clustering, each segment was analyzed based on its characteristics, such as income level and spending behavior. This helped identify different types of customers, for example:
 
-High-income high-spending customers
-High-income low-spending customers
-Low-income high-spending customers
-Low-income low-spending customers
-Average customers
+1) High-income high-spending customers
+2) High-income low-spending customers
+3) Low-income high-spending customers
+4) Low-income low-spending customers
+5) Average customers
 
 # 5️⃣ Marketing Strategy Recommendations
 Based on the identified segments, targeted marketing strategies were proposed:
 
-# 1) High Income – High Spending Customers:
+# 1) High Income – High Spending Customers
 
 Offer VIP memberships and exclusive products
 Provide personalized premium services
