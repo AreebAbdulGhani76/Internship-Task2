@@ -208,7 +208,7 @@ Plotted actual vs. predicted energy usage for all models
 
 Visualization helps assess the model’s performance over time and identify periods where forecasts deviate from actual consumption.
 
-# 📈 Results and Findings
+# 📈 Results and Findings:
 
 1) ARIMA effectively captured short-term linear trends in energy usage.
 2) Prophet performed well in handling seasonal patterns and daily fluctuations.
