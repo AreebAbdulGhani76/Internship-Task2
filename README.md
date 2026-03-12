@@ -1,5 +1,5 @@
-# Internship-Task2
-# Task 1: Term Deposit Subscription Prediction (Bank Marketing)
+# Data Science & Analytics Interns Task2
+# Task1: Term Deposit Subscription Prediction (Bank Marketing)
 
 # 📌Objective:
 
