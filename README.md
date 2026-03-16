@@ -68,7 +68,7 @@ These techniques were used to explain at least 5 individual predictions, highlig
 3) Features such as call duration, campaign contacts, and customer profile information were important predictors.
 4) SHAP/LIME explanations helped interpret how individual features influenced model predictions.
 
-## Task 2: Customer Segmentation Using Unsupervised Learning (Mall Customers)
+# Task 2: Customer Segmentation Using Unsupervised Learning (Mall Customers)
 
 # 📌 Objective:
 The objective of this project is to segment customers based on their spending behavior using unsupervised learning techniques. By identifying different customer groups, businesses can better understand purchasing patterns and design targeted marketing strategies for each segment. The dataset used for this task is the Mall Customers Dataset, which contains demographic and spending information of mall visitors.
@@ -150,7 +150,7 @@ Use loyalty programs and regular promotional campaigns
 # 📈 Results and Findings:
 The K-Means clustering algorithm successfully grouped customers into distinct segments based on their spending patterns. Visualization techniques such as PCA and t-SNE helped clearly illustrate the separation between clusters. The segmentation provides valuable insights that businesses can use to improve marketing strategies, enhance customer engagement, and increase revenue.
 
-## Task 3: Energy Consumption Time Series Forecasting
+# Task 3: Energy Consumption Time Series Forecasting
 
 # 📌 Objective:
 The objective of this project is to forecast short-term household energy usage using historical patterns and time-based features. By predicting energy consumption, households and utility providers can optimize energy usage, reduce costs, and improve planning. The dataset used for this task is the Household Power Consumption Dataset, which contains detailed records of household electricity usage over time.
